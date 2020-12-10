@@ -16,5 +16,9 @@ module.exports = {
     ecmaVersion: 2018,
   },
   rules: {
+    "prefer-promise-reject-errors":"off",
+    "consistent-return":"off",
+    "no-undef":"off",
+    "prefer-rest-params":"off"
   },
 };
